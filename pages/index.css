@@ -1,0 +1,41 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__text/card__text.css);
+
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__booking/element__booking-button.css);
+@import url(../blocks/element/__text/element__text.css);
+@import url(../blocks/element/__title/element__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu-link.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__number/header__number.css);
+@import url(../blocks/header/__title/header__title.css);
+
+@import url(../blocks/infrastructure/infrastructure.css);
+@import url(../blocks/infrastructure/__elements/infrastructure__elements.css);
+
+@import url(../blocks/title/title.css);
+
+@import url(../blocks/uniqueness/uniqueness.css);
+@import url(../blocks/uniqueness/__block/uniqueness__block.css);
+@import url(../blocks/uniqueness/__block/uniqueness__block-circle.css);
+@import url(../blocks/uniqueness/__block/_text/uniqueness__block_text.css);
+@import url(../blocks/uniqueness/__block/_text/uniqueness__block_text-red.css);
+@import url(../blocks/uniqueness/__cards/uniqueness__cards.css);
+@import url(../blocks/uniqueness/__cards/uniqueness__cards-right.css);
+@import url(../blocks/uniqueness/__cards/uniqueness__cards-left.css);
+@import url(../blocks/uniqueness/__cards/uniqueness__cards-button.css);
+@import url(../blocks/uniqueness/__text/uniqueness__text.css);
+@import url(../blocks/uniqueness/__title/uniqueness__title.css);
