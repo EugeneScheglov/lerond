@@ -2,10 +2,13 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin: 0 auto;
     white-space: nowrap;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     letter-spacing: -0.01em;
     color: rgb(0, 0, 0);
+    margin: 0;
 }
