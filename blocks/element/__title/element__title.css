@@ -1,3 +1,12 @@
 .element__title {
-    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 270px 0 10px 50px;
+    color: #FFFFFF;
 }

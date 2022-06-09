@@ -1,3 +1,7 @@
 .element {
-    
+    width: 1860px;
+    height: 830px;
+    margin: 0 30px;
+    background-image: url(../../images/dvor.png);
+    border-radius: 20px;
 }

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
 
     <title>Le Rond Sochi Resort & SPA </title>
 </head>
@@ -11,7 +12,7 @@
 <body class="page">
     <div class="page__container">
         <header class="header">
-            <img class="header__logo" alt="Логотип" src="./images/logo.svg">
+            <img class="header__logo" alt="логотип" src="./images/logo.svg">
             <div class="header__menu">
                 <p class="header__title">Главная</p>
                 <p class="header__title">Номера</p>
@@ -22,15 +23,19 @@
                 <p class="header__title">Фотогалерея</p>
                 <p class="header__title">Контакты</p>
             </div>
-            <div class="header__number"><a href="tel:+78003331818">8 (800) 333-18-18</a></div>
+            <div class="header__number">
+                <a class="header__number-phone" href="tel:+78003331818">8 (800) 333-18-18</a>
+            </div>
         </header>
 
         <main>
             <section class="element">
-                <h1 class="element__title">АПАРТ–ОТЕЛЬ</h1>
-                <p class="element__text">Le Rond Sochi
-                    Resort &#038; SPA </p>
-                <button class="element__booking-button" type="button">забронировать</button>
+                <div class="element__info">
+                    <h1 class="element__title">АПАРТ–ОТЕЛЬ</h1>
+                    <p class="element__text">Le Rond Sochi
+                        <br>Resort &#038; SPA </p>
+                    <button class="element__booking-button" type="button">забронировать</button>
+                </div>
             </section>
 
             <section class="uniqueness">

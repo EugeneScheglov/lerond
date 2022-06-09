@@ -1,3 +1,8 @@
 .header__number {
-    
+    margin-right: 30px;
+    display: flex;
+    border: 2px solid #191919;
+    border-radius: 33px;
+    width: 191px;
+    height: 40px;
 }
