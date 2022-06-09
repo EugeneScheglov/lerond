@@ -1,11 +1,13 @@
-.uniqueness__title {
+.card__text-bold {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 94.99%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    padding: 0 60px 50px 60px;
-    margin: 0;
+    position: absolute;
+    color: #FFFFFF;
+    margin: 295px 0 20px 20px;
+    padding: 0;
 }

@@ -1,3 +1,13 @@
 .card__text {
-    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 94.99%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    position: absolute;
+    color: #FFFFFF;
+    margin: 352px 0 20px 20px;
+    padding: 0;
 }

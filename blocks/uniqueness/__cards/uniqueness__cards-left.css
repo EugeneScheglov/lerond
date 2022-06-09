@@ -1,3 +1,10 @@
 .uniqueness__cards-left {
-    
+    width: 910px;
+    height: 900px;
+    background-image: url(../../../images/Lobby.png);
+    background-size: 910px 900px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }

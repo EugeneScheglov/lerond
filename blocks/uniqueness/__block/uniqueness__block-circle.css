@@ -1,3 +1,10 @@
 .uniqueness__block-circle {
-    
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

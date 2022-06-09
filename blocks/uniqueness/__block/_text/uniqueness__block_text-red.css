@@ -1,3 +1,11 @@
 .uniqueness__block_text-red {
-    
+    font-family: 'Arial Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 90%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin: 0;
+    color: #D50032;
 }
