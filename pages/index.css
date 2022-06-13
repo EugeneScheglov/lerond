@@ -8,6 +8,7 @@
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__text/card__text-bold.css);
 @import url(../blocks/card/_dark/card_dark.css);
+@import url(../blocks/card/__image/card__image.css);
 
 @import url(../blocks/element/element.css);
 @import url(../blocks/element/__booking/element__booking-button.css);
