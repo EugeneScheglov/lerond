@@ -1,5 +1,5 @@
 .uniqueness__cards {
     display: flex;
-    margin: 0 30px;
     justify-content: space-between;
+    margin: 0 30px;
 }

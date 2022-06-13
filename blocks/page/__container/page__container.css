@@ -1,7 +1,6 @@
 .page__container {
-  margin: 0 auto;
+  margin: auto;
   max-width: 1920px;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }

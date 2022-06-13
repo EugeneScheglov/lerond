@@ -1,3 +1,9 @@
 .header__menu {
     display: flex;
 }
+
+@media screen and (max-width: 1279px) {
+    .header {
+      opacity: 1;
+    }
+  }
