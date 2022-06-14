@@ -1,13 +1,11 @@
-.element__booking-button {
+.header__booking-button {
     width: 250px;
     height: 40px;
     background-color: rgba(213, 0, 50, 1);
     border-radius: 33px;
     box-sizing: border-box;
     cursor: pointer;
-    margin-left: 50px;
     border: none;
-
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -18,18 +16,15 @@
     color: #FFFFFF;
 }
 
-.element__booking-button:hover {
-    opacity: .5;
+.header__booking-button:hover {
+    opacity: .7;
     background-color: white;
     color: black;
+    border: 2px solid black;
 }
 
 @media screen and (max-width: 767px) {
-    .element__booking-button {
-        margin-left: 10px;
-        width: 150px;
-        height: 30px;
-        font-size: 12px;
-        line-height: 16px;
+    .header__booking-button {
+        display: none;
     }
 }

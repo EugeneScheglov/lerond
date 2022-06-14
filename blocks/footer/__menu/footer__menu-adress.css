@@ -1,0 +1,18 @@
+.footer__menu-adress {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__menu-adress {
+        font-size: 10px;
+        line-height: 16px;
+    }
+}

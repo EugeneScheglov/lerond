@@ -1,8 +1,17 @@
+.header__menu-button {
+    visibility: hidden;
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .header__menu-button {
+        visibility: visible;
+        display: block;
         width: 30px;
-        height: 5px;
+        height: 10px;
         border-top: 2px solid black;
         border-bottom: 2px solid black;
+        border-left: none;
+        border-right: none;
     }
 }

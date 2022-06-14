@@ -1,7 +1,5 @@
 @media screen and (max-width: 767px) {
     .footer__column-one {
         flex-direction: column;
-        font-size: 14px;
-        line-height: 16px;
     }
 }

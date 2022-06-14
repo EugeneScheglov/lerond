@@ -4,17 +4,6 @@
 
 @media screen and (max-width: 767px) {
   .header__menu {
-    display: block;
-    position: absolute;
-    background-color: white;
-    width: 390px;
-    height: 390px;
-    z-index: 1;
-    border-radius: 10px;
-    opacity: 0;
-  }
-
-  .header__menu:hover {
-    opacity: 1;
+    display: none;
   }
 }
