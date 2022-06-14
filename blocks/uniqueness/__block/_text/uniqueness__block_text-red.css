@@ -9,3 +9,9 @@
     margin: 0;
     color: #D50032;
 }
+
+@media screen and (max-width: 767px) {
+    .uniqueness__block_text-red {
+        font-size: 30px;
+    }
+}

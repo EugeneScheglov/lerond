@@ -8,3 +8,11 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+    .uniqueness__cards-left {
+        width: 370px;
+        height: 370px;
+        background-size: 370px 370px;
+    }
+}

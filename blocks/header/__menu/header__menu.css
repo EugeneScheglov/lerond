@@ -1,9 +1,20 @@
 .header__menu {
-    display: flex;
+  display: flex;
 }
 
-@media screen and (max-width: 1279px) {
-    .header {
-      opacity: 1;
-    }
+@media screen and (max-width: 767px) {
+  .header__menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 390px;
+    height: 390px;
+    z-index: 1;
+    border-radius: 10px;
+    opacity: 0;
   }
+
+  .header__menu:hover {
+    opacity: 1;
+  }
+}

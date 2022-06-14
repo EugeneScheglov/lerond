@@ -1,7 +1,13 @@
 .element__info {
-    width: 1860px;
     height: 830px;
     margin: 0;
     border-radius: 20px;
     background: linear-gradient(90deg, #000000 -12.93%, rgba(0, 0, 0, 0) 43.41%);
+}
+
+@media screen and (max-width: 767px) {
+    .element__info {
+        height: 615px;
+        background: linear-gradient(0deg, rgba(25, 25, 25, 0.76) -5.69%, rgba(25, 25, 25, 0) 36.59%);
+    }
 }

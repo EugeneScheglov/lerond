@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+    .header__menu-drop {
+        position: relative;
+        display: inline-block;
+    }
+
+    .header__menu-drop:hover {
+        display: block;
+    }
+}

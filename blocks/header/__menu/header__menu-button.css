@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+    .header__menu-button {
+        width: 30px;
+        height: 5px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+}

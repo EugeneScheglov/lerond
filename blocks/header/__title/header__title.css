@@ -9,3 +9,10 @@
     text-decoration: none;
     color: #000;
 }
+
+@media screen and (max-width: 767px) {
+    .header__title {
+        display: flex;
+        margin: 10px auto;
+    }
+}

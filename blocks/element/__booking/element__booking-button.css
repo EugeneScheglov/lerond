@@ -1,12 +1,12 @@
 .element__booking-button {
     width: 250px;
     height: 40px;
-    border: 2px solid #FFFFFF;
+    background-color: rgba(213, 0, 50, 1);
     border-radius: 33px;
     box-sizing: border-box;
     cursor: pointer;
-    background: linear-gradient(90deg, #000000 -12.93%, rgba(0, 0, 0, 0) 43.41%);
     margin-left: 50px;
+    border: none;
 
     font-family: 'Arial';
     font-style: normal;
@@ -16,4 +16,14 @@
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .element__booking-button {
+        margin-left: 10px;
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 16px;
+    }
 }

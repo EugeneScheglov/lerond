@@ -9,3 +9,10 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__menu-link {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

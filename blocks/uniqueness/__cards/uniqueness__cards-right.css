@@ -6,3 +6,10 @@
     justify-content: center;
     flex-direction: column;
 }
+
+@media screen and (max-width: 767px) {
+    .uniqueness__cards-right {
+        width: 370px;
+        height: 600px;
+    }
+}

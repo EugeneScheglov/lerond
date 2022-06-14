@@ -9,3 +9,11 @@
     padding: 0 60px;
     margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .uniqueness__text {
+        font-size: 12px;
+        line-height: 120%;
+        padding: 0 20px 0 20px;
+    }
+}

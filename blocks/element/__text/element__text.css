@@ -10,3 +10,11 @@
     padding: 0 0 40px 50px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 767px) {
+    .element__text {
+        font-size: 33px;
+        line-height: 90%;
+        padding: 0 0 20px 10px;
+    }
+}

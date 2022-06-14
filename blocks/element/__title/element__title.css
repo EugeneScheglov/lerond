@@ -10,3 +10,11 @@
     padding: 270px 0 10px 50px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 767px) {
+    .element__title {
+        font-size: 18px;
+        line-height: 23px;
+        padding: 455px 0 10px 10px;
+    }
+}

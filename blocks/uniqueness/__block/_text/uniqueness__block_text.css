@@ -10,3 +10,10 @@
     margin: 0;
     color: #727272;
 }
+
+@media screen and (max-width: 767px) {
+    .uniqueness__block_text {
+        font-size: 10px;
+        line-height: 11px;
+    }
+}

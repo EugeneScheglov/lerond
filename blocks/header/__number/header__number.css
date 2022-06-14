@@ -6,3 +6,11 @@
     height: 40px;
     justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+    .header__number {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}

@@ -12,3 +12,13 @@
     color: rgb(0, 0, 0);
     margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .header__number-phone {
+        opacity: 0;
+        width: 0;
+        height: 0;
+        font-size: 1px;
+        line-height: 1px;
+    }
+}

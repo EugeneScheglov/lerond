@@ -1,8 +1,14 @@
 .card_dark {
-  filter: grayscale(100%) brightness(30%);
+  filter: grayscale(100%);
 }
 
 .card_dark:hover {
-  filter: grayscale(0%) brightness(50%);
+  filter: grayscale(0%);
   transition: .8s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .card_dark {
+      filter: none;
+  }
 }
