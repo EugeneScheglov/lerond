@@ -8,7 +8,13 @@
     padding: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1280px) {
+    .infrastructure__elements {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     .infrastructure__elements {
         display: none;
     }

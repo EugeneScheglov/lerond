@@ -9,6 +9,14 @@
     align-items: flex-end;
 }
 
+@media screen and (max-width: 1024px) {
+    .uniqueness__cards-left {
+        width: 550px;
+        height: 550px;
+        background-size: 550px 550px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .uniqueness__cards-left {
         width: 370px;

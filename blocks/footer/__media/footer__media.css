@@ -1,0 +1,18 @@
+.footer__media {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    padding-top: 160px;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__media {
+        display: none;
+    }
+}

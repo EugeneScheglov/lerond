@@ -1,0 +1,13 @@
+.footer__image-tg {
+    /* margin: 0 auto;
+    position: absolute;
+    padding-top: 280px;
+    left: 50.5%; */
+    margin: 20px 10px 0 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__image-tg {
+        display: none;
+    }
+}
