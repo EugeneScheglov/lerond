@@ -1,0 +1,9 @@
+.footer__menu-distance-two {
+    padding: 3px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__menu-distance-two {
+        padding: 0;
+    }
+}

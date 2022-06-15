@@ -1,0 +1,11 @@
+.popup__footer-number {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFFFFF;
+}

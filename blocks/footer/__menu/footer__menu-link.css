@@ -10,6 +10,10 @@
     margin: 0;
 }
 
+.footer__menu-link:hover {
+    opacity: .8;
+}
+
 @media screen and (max-width: 767px) {
     .footer__menu-link {
         font-size: 14px;

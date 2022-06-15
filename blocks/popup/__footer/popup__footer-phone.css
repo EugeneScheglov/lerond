@@ -1,0 +1,9 @@
+.popup__footer-phone {
+    width: 150px;
+    height: 30px;
+    background: #D50032;
+    border-radius: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

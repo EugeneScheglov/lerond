@@ -1,3 +1,9 @@
 .footer__menu-distance {
     padding: 3px 0;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__menu-distance {
+        padding: 5px 0;
+    }
+}
