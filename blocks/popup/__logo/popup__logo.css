@@ -1,4 +1,5 @@
 .popup__logo {
     width: 102px;
     height: 20px;
+    align-items: center;
 }

@@ -4,8 +4,16 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 700px;
+        margin: 20px auto;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .card {
-        width: 370px;
+        width: 100%;
+        margin: 0;
     }
 }

@@ -12,9 +12,18 @@
     padding: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .card__text {
+        font-size: 25px;
+        line-height: 95%;
+        margin: 20px 20px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .card__text {
         font-size: 18px;
         line-height: 95%;
+        display: none;
     }
 }

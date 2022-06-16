@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le Rond Sochi Resort & SPA </title>
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./pages/chief-slider.min.css">
+    <link rel="stylesheet" href="./pages/chief-slider.css">
+
+    <script defer src="./utils/chief-slider.min.js"></script>
+    <script src="./utils/chief-slider.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new ChiefSlider('.slider');
+        });
+    </script>
 </head>
 
 <body class="page">
@@ -153,6 +163,98 @@
                         <p class="card__text">летний кинотеатр</p>
                     </div>
                 </div>
+
+                <div class="slider">
+                    <div class="slider__container">
+                        <div class="slider__wrapper">
+                            <div class="slider__items">
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="ресто" src="./images/img84.png">
+                                        <p class="slider__info">вкусная еда</p>
+                                        <p class="slider__text-bold">Ресторан Дружба
+                                            <br>by Novikov с террасой
+                                            <br>и лобби-бар</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="ресто" src="./images/img2.png">
+                                        <p class="slider__info">лучший сервис</p>
+                                        <p class="slider__text">Консьерж–сервис</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="спа" src="./images/img3.png">
+                                        <p class="slider__info">умиротворение</p>
+                                        <p class="slider__text">Medical & Spa</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="центр" src="./images/img4.png">
+                                        <p class="slider__info">комфорт</p>
+                                        <p class="slider__text">Конференц–центр</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="детская" src="./images/img5.png">
+                                        <p class="slider__info">развлечения для детей</p>
+                                        <p class="slider__text">Детская комната</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="двор" src="./images/img6.png">
+                                        <p class="slider__info">отдых</p>
+                                        <p class="slider__text">Внутренний двор–Патио</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="бассейн" src="./images/img7.png">
+                                        <p class="slider__info">развлечения для всей семьи</p>
+                                        <p class="slider__text">Открытый и крытый бассейны</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="зал" src="./images/img8.png">
+                                        <p class="slider__info">образ жизни</p>
+                                        <p class="slider__text">фитнес–зал</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="бизнес" src="./images/img9.png">
+                                        <p class="slider__info">комфорт для бизнеса</p>
+                                        <p class="slider__text">переговорная</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="сауна" src="./images/img10.png">
+                                        <p class="slider__info">расслабление</p>
+                                        <p class="slider__text">сауна и хаммам</p>
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="card">
+                                        <img class="slider__image" alt="театр" src="./images/img11.png">
+                                        <p class="slider__info">развлечения для всей семьи</p>
+                                        <p class="slider__text">летний кинотеатр</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="slider__control" data-slide="prev"></a>
+                    <a href="#" class="slider__control" data-slide="next"></a>
+                </div>
+
             </section>
         </main>
 
@@ -254,9 +356,8 @@
                     </div>
                 </div>
             </div>
-
+            <script type="text/javascript" src="./utils/script.js"></script>
         </div>
-        <script type="text/javascript" src="./utils/script.js"></script>
 </body>
 
 </html>

@@ -16,6 +16,12 @@
 
 @media screen and (max-width: 1024px) {
     .infrastructure__elements {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .infrastructure__elements {
         display: none;
     }
 }

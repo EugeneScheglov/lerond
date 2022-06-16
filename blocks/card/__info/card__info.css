@@ -16,3 +16,9 @@
     position: absolute;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+    .card__info {
+        display: none;
+    }
+}

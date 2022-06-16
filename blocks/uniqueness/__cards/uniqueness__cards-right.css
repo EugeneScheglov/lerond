@@ -19,5 +19,6 @@
     .uniqueness__cards-right {
         width: 370px;
         height: 600px;
+        margin: 0;
     }
 }
