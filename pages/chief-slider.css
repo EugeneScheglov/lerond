@@ -69,7 +69,8 @@
   text-transform: uppercase;
   color: #FFFFFF;
   position: absolute;
-  margin: 420px 0 20px 20px;
+  margin: 410px 0;
+  left: 25px;
   width: 100%;
 }
 
@@ -83,7 +84,8 @@
   text-transform: uppercase;
   color: #FFFFFF;
   position: absolute;
-  margin: 375px 0 20px 20px;
+  margin: 370px 0;
+  left: 25px;
   width: 100%;
 }
 
