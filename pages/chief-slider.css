@@ -26,10 +26,12 @@
   transition: none;
 }
 
-.slider__item {
-  flex: 0 0 100%;
-  max-width: 100%;
-  user-select: none;
+@media screen and (max-width: 767px) {
+  .slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    user-select: none;
+  }
 }
 
 .slider__image {
@@ -103,6 +105,7 @@
   text-align: center;
   background: rgb(0 0 0 / 20%);
   transform: translateY(-50%);
+  z-index: 2;
 }
 
 .slider__control_hide {
