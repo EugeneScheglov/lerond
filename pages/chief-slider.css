@@ -35,7 +35,7 @@
 .slider__image {
   width: 95%;
   height: 450px;
-  border-radius: 20px;
+  border-radius: 10px;
   object-fit: cover;
   margin: 0 auto;
 }
