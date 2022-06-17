@@ -63,13 +63,13 @@
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 94.99%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #FFFFFF;
   position: absolute;
-  margin: 410px 0;
+  margin: 420px 0 0 0;
   left: 25px;
   width: 100%;
 }

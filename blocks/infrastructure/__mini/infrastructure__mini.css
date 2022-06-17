@@ -1,0 +1,13 @@
+.infrastructure__mini {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .infrastructure__mini {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+        row-gap: 10px;
+    }
+}

@@ -1,0 +1,10 @@
+.card__mini-image {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .card__mini-image {
+        border-radius: 20px;
+        display: block;
+    }
+}
