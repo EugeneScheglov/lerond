@@ -1,13 +1,16 @@
 .uniqueness__title {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
     font-size: 45px;
     line-height: 94.99%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     padding: 0 60px;
     margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .uniqueness__title {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 767px) {

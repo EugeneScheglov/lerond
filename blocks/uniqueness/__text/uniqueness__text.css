@@ -1,13 +1,18 @@
 .uniqueness__text {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     text-align: justify;
     letter-spacing: -0.01em;
     padding: 0 60px;
     margin: 0;
+    width: 720px;
+}
+
+@media screen and (max-width: 1024px) {
+    .uniqueness__text {
+        padding: 0;
+        width: 700px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -15,5 +20,6 @@
         font-size: 12px;
         line-height: 120%;
         padding: 0 20px 0 20px;
+        width: 320px;
     }
 }
