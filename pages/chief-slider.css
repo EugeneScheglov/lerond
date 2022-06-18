@@ -1,4 +1,4 @@
-.slider {
+.slider-two {
   display: none;
 }
 
@@ -26,13 +26,11 @@
   transition: none;
 }
 
-@media screen and (max-width: 767px) {
   .slider__item {
     flex: 0 0 100%;
     max-width: 100%;
     user-select: none;
   }
-}
 
 .slider__image {
   width: 95%;

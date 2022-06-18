@@ -10,8 +10,7 @@
 
 @media screen and (max-width: 1024px) {
     .uniqueness__text {
-        padding: 0;
-        width: 700px;
+        padding: 0 60px;
     }
 }
 
@@ -19,7 +18,7 @@
     .uniqueness__text {
         font-size: 12px;
         line-height: 120%;
-        padding: 0 20px 0 20px;
-        width: 320px;
+        padding: 0;
+        width: 100%;
     }
 }

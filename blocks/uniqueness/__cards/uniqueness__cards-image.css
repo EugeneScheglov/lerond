@@ -1,13 +1,35 @@
 .uniqueness__cards-image {
-    width: 100px;
-    height: 11px;
+    width: 900px;
+    height: 900px;
     padding: 0;
+    border-radius: 20px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .uniqueness__cards-image {
+        width: 700px;
+        height: 700px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .uniqueness__cards-image {
+        width: 550px;
+        height: 550px;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .uniqueness__cards-image {
-        width: 50px;
-        height: 6px;
-        padding: 6px 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
     }
 }

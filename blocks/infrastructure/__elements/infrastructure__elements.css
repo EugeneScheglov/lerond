@@ -8,6 +8,12 @@
     padding: 0;
 }
 
+@media screen and (max-width: 1860px) {
+    .infrastructure__elements {
+        display: flex;
+    }
+}
+
 @media screen and (max-width: 1280px) {
     .infrastructure__elements {
         display: flex;
