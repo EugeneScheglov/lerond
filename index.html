@@ -13,7 +13,10 @@
     <script src="./utils/chief-slider.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            new ChiefSlider('.slider');
+            var elms = document.querySelectorAll('.slider');
+            for (var i = 0, len = elms.length; i < len; i++) {
+                new ChiefSlider(elms[i]);
+            }
         });
     </script>
 </head>
@@ -52,26 +55,26 @@
                     <div class="uniqueness__cards-left">
                         <div class="slider">
                             <div class="slider__container">
-                              <div class="slider__wrapper">
-                                <div class="slider__items">
-                                  <div class="slider__item">
-                                    <img class="uniqueness__cards-image" alt="лобби" src="./images/Lobby.png">
-                                  </div>
-                                  <div class="slider__item">
-                                    <img class="uniqueness__cards-image" alt="лобби" src="./images/lobby2.png">
-                                  </div>
-                                  <div class="slider__item">
-                                    <img class="uniqueness__cards-image" alt="лобби" src="./images/lobby3.png">
-                                  </div>
-                                  <div class="slider__item">
-                                    <img class="uniqueness__cards-image" alt="лобби" src="./images/lobby4.png">
-                                  </div>
+                                <div class="slider__wrapper">
+                                    <div class="slider__items">
+                                        <div class="slider__item">
+                                            <img class="uniqueness__cards-image" alt="лобби" src="./images/Lobby.png">
+                                        </div>
+                                        <div class="slider__item">
+                                            <img class="uniqueness__cards-image" alt="лобби" src="./images/lobby2.png">
+                                        </div>
+                                        <div class="slider__item">
+                                            <img class="uniqueness__cards-image" alt="лобби" src="./images/lobby3.png">
+                                        </div>
+                                        <div class="slider__item">
+                                            <img class="uniqueness__cards-image" alt="лобби" src="./images/lobby4.png">
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
                             <a href="#" class="slider__control" data-slide="prev"></a>
                             <a href="#" class="slider__control" data-slide="next"></a>
-                          </div>
+                        </div>
                     </div>
                     <div class="uniqueness__cards-right">
                         <p class="uniqueness__title">Современный апарт-отель
