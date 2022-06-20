@@ -5,16 +5,16 @@
     text-transform: uppercase;
     position: absolute;
     color: #FFFFFF;
-    margin: 20% 0 20px 20px;
+    margin: 19.5% 0 20px 20px;
     padding: 0;
 }
 
 .card__text-ls {
-    margin: 21% 0 20px 20px;
+    margin: 20% 0 20px 20px;
 }
 
 .card__text-bs {
-    margin: 19% 0 20px 20px;
+    margin: 18% 0 20px 20px;
 }
 
 @media screen and (max-width: 1520px) {

@@ -5,7 +5,7 @@
 @media screen and (max-width: 767px) {
     .card__mini {
         display: flex;
-        margin: 0;
+        margin: 5px 0;
         flex-direction: column;
         width: 95%;
         height: 100%;
