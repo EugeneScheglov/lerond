@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1520px) {
+@media screen and (max-width: 1550px) {
     .card__text-bold {
         font-size: 23px;
         line-height: 95%;
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1024px) {
     .card__text-bold {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 95%;
     }
 }
