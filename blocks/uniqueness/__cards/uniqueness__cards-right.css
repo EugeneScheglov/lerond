@@ -1,6 +1,5 @@
 .uniqueness__cards-right {
-    width: 900px;
-    height: 900px;
+    width: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -8,23 +7,17 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1580px) {
-    .uniqueness__cards-right {
-        margin-top: 100px;
-    }
-}
-
 @media screen and (max-width: 1280px) {
     .uniqueness__cards-right {
-        margin-top: 150px;
-        width: 800px;
+        width: 900px;
+        row-gap: 80px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .uniqueness__cards-right {
-        margin-top: 100px;
-        
+        width: 800px;
+        row-gap: 80px;
     }
 }
 
