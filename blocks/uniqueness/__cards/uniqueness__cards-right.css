@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 767px) {
     .uniqueness__cards-right {
-        width: 100%;
+        width: 95%;
         height: 500px;
         margin: 0;
     }
