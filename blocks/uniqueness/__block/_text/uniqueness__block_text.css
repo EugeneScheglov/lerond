@@ -9,6 +9,7 @@
     border-radius: 33px;
     padding: 5px 20px;
     white-space: pre;
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,5 +23,6 @@
         font-size: 10px;
         line-height: 11px;
         padding: 5px 10px;
+        border-radius: 82px;
     }
 }
