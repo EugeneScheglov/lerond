@@ -28,8 +28,9 @@
 
 @media screen and (max-width: 767px) {
     .uniqueness__text {
-        font-size: 12px;
-        line-height: 120%;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.03em;
         width: 100%;
         padding: 20px 0 50px 0;
     }
