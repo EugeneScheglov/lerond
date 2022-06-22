@@ -1,16 +1,26 @@
 .uniqueness__block_text {
-    font-size: 12px;
-    line-height: 16px;
-
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
     text-align: justify;
-    letter-spacing: -0.01em;
     margin: 0;
-    color: #727272;
+    background: #D50032;
+    border: 2px solid #D50032;
+    border-radius: 33px;
+    padding: 5px 20px;
+    white-space: pre;
+}
+
+@media screen and (max-width: 1024px) {
+    .uniqueness__block_text {
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .uniqueness__block_text {
         font-size: 10px;
         line-height: 11px;
+        padding: 5px 10px;
     }
 }

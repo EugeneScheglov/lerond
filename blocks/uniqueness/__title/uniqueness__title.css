@@ -1,8 +1,7 @@
 .uniqueness__title {
-    font-size: 45px;
-    line-height: 94.99%;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.03em;
     padding-left: 100px;
     margin: 0;
 }
@@ -11,12 +10,6 @@
     .uniqueness__title {
         padding: 0 60px;
         font-size: 32px;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    .uniqueness__title {
-        font-size: 25px;
     }
 }
 
@@ -29,7 +22,8 @@
 @media screen and (max-width: 767px) {
     .uniqueness__title {
         font-size: 20px;
-        padding: 40px 0 0 0;
+        padding: 0;
         width: 100%;
+        line-height: 1.5em;
     }
 }
