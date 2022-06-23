@@ -16,7 +16,7 @@
 }
 
 .element__booking-button:hover {
-    opacity: .5;
+    opacity: 1;
     background-color: white;
     color: black;
 }
