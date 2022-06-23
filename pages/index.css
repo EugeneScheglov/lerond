@@ -45,6 +45,7 @@
 @import url(../blocks/header/__number/header__number-phone.css);
 @import url(../blocks/header/__menu/header__menu-button.css);
 @import url(../blocks/header/__booking/header__booking-button.css);
+@import url(../blocks/header/__booking/header__booking-wrapper.css);
 
 @import url(../blocks/infrastructure/infrastructure.css);
 @import url(../blocks/infrastructure/__elements/infrastructure__elements.css);
