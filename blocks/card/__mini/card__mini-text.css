@@ -16,8 +16,8 @@
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 330px) {
     .card__mini-text {
-        padding: 35% 0 0 0;
+        padding: 34% 0 0 0;
     }
 }
