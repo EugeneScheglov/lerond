@@ -13,11 +13,6 @@
         position: absolute;
         padding: 40% 0 0 0;
         left: 20px;
-    }
-}
-
-@media screen and (max-width: 330px) {
-    .card__mini-text {
-        padding: 34% 0 0 0;
+        margin: 4% 0;
     }
 }
