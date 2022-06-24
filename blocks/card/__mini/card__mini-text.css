@@ -11,7 +11,13 @@
         text-transform: uppercase;
         color: #FFFFFF;
         position: absolute;
-        margin: 45% 0 0 0;
+        padding: 40% 0 0 0;
         left: 20px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .card__mini-text {
+        padding: 35% 0 0 0;
     }
 }
