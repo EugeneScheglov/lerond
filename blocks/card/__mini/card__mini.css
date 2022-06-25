@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 767px) {
     .card__mini {
+        -webkit-box-flex: initial;
         display: flex;
         margin: 5px 0;
         flex-direction: column;
