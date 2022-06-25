@@ -7,3 +7,15 @@
     padding: 40px 0;
     color: #D50032;
 }
+
+@media screen and (max-width: 380px) {
+    .popup__title {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .popup__title {
+        font-size: 42px;
+    }
+}
