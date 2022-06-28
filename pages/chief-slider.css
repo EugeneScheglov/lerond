@@ -11,6 +11,13 @@
 
 .slider__container {
   overflow: hidden;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .slider__container {
+    border-radius: 10px;
+  }
 }
 
 .slider__wrapper {
