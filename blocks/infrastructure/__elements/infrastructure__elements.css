@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     column-gap: 10px;
     width: 100%;
+    position: relative;
 }
 
 .card__row .card {

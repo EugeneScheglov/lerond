@@ -1,0 +1,19 @@
+#block-search, #block-search {
+    box-sizing: border-box;
+    margin: 60px 30px 0 30px;
+    border-radius: 20px;
+}
+@media screen and (max-width: 767px) {
+  #block-search, #block-search {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+#block-search {
+   background: #3F3E3E;
+  }
+
+ .tl-container {
+   padding: 0 30px;
+  }
