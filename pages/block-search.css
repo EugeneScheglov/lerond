@@ -1,6 +1,6 @@
 #block-search, #block-search {
     box-sizing: border-box;
-    margin: 0 40px 0 40px;
+    margin: 0 2.2% 0 2.2%;
     border-radius: 20px;
 }
 @media screen and (max-width: 767px) {
