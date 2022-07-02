@@ -1,0 +1,8 @@
+.contacts__block_right-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    column-gap: 100px;
+    row-gap: 100px;
+    margin: 35px 0;
+}

@@ -1,0 +1,10 @@
+.contacts__block_right-adress {
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: -0.03em;
+    border-bottom: 1.5px solid #434343;
+    padding-bottom: 10px;
+    color: #434343;
+    width: 130%;
+    margin: 15px 0;
+}

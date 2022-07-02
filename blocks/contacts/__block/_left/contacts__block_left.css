@@ -1,0 +1,9 @@
+.contacts__block_left {
+    background-image: url(../../../../images/contacts-image.png);
+    background-repeat: no-repeat;
+    background-size: 915px 870px;
+    background-position: center;
+    width: 48%;
+    height: 100%;
+    border-radius: 20px;
+}

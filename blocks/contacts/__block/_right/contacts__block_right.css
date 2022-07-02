@@ -1,0 +1,7 @@
+.contacts__block_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 30px;
+}
