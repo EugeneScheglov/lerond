@@ -6,4 +6,21 @@
     width: 48%;
     height: 100%;
     border-radius: 20px;
+    position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+    .contacts__block_left {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__block_left {
+        width: 100%;
+        height: 615px;
+        background-size: 660px 615px;
+        border-radius: 10px;
+        background-position: left;
+    }
 }

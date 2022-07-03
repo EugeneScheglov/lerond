@@ -6,3 +6,18 @@
     margin: 785px 0 30px 30px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1280px) {
+    .contacts__block_left-title {
+        font-size: 36px;
+        line-height: 41px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__block_left-title {
+        font-size: 36px;
+        line-height: 41px;
+        margin: 550px 0 10px 10px;
+    }
+}

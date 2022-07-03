@@ -20,6 +20,15 @@
     border: 2px solid black;
 }
 
+@media screen and (max-width: 1450px) {
+    .header__booking-button {
+        width: 180px;
+        height: 30px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .header__booking-button {
         display: none;

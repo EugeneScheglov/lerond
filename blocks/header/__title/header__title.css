@@ -7,6 +7,13 @@
     color: #000;
 }
 
+@media screen and (max-width: 1450px) {
+    .header__title {
+        font-size: 14px;
+        line-height: 13px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .header__title {
         display: flex;

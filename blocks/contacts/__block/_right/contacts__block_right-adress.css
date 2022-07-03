@@ -8,3 +8,29 @@
     width: 130%;
     margin: 15px 0;
 }
+
+@media screen and (max-width: 1600px) {
+    .contacts__block_right-adress {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .contacts__block_right-adress {
+        font-size: 48px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts__block_right-adress {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__block_right-adress {
+        border-bottom: none;
+    }
+}
