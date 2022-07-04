@@ -46,6 +46,8 @@
 @import url(../blocks/header/__menu/header__menu-button.css);
 @import url(../blocks/header/__booking/header__booking-button.css);
 @import url(../blocks/header/__booking/header__booking-wrapper.css);
+@import url(../blocks/header/__title/_grey/header__title_grey.css);
+@import url(../blocks/header/__title/_select/header__title_select.css);
 
 @import url(../blocks/infrastructure/infrastructure.css);
 @import url(../blocks/infrastructure/__elements/infrastructure__elements.css);
