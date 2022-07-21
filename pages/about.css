@@ -52,22 +52,6 @@
 @import url(../blocks/popup/__footer/popup__footer-copy.css);
 @import url(../blocks/popup/__position/popup__position.css);
 
-@import url(../blocks/rooms/rooms.css);
-@import url(../blocks/rooms/__card/rooms__card.css);
-@import url(../blocks/rooms/__card/rooms__card-number.css);
-@import url(../blocks/rooms/__card/rooms__card-title.css);
-@import url(../blocks/rooms/__card/_wrapper/rooms__card_wrapper-info.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info-left.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info-title.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info-right.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info-wrapper.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info-text.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info-ttl.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info-list.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info-column.css);
-@import url(../blocks/rooms/__card/_wrapper/rooms__card_wrapper-column.css);
-@import url(../blocks/rooms/__card/_info/rooms__card_info-block.css);
-@import url(../blocks/rooms/__card/rooms__card-button.css);
-@import url(../blocks/element/__booking/element__booking-button.css);
-@import url(../blocks/rooms/__card/rooms__card-image.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__text/about__text.css);
