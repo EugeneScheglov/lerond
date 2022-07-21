@@ -12,13 +12,18 @@
         border: 0;
         font-size: 30px;
         padding: 0;
+        color: black;
     }
 
     .rooms__card-button:hover {
-        transform: rotate(45deg);
+        transform: rotate(90deg);
     }
 
     nav:hover ul {
         display: inline-block;
+    }
+
+    nav button:hover ~ ul {
+        display: none;
     }
 }
