@@ -1,0 +1,14 @@
+.rooms__card-number {
+    color: rgba(213, 0, 50, 1);
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .rooms__card-number {
+        font-size: 20px;
+        line-height: 23px;
+    }
+}

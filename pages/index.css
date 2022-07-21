@@ -40,9 +40,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
-@import url(../blocks/header/__number/header__number.css);
 @import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__number/header__number-phone.css);
 @import url(../blocks/header/__menu/header__menu-button.css);
 @import url(../blocks/header/__booking/header__booking-button.css);
 @import url(../blocks/header/__booking/header__booking-wrapper.css);

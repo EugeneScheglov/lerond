@@ -1,0 +1,11 @@
+.rooms__card_info-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .rooms__card_info-wrapper {
+        column-gap: 10px;
+    }
+}

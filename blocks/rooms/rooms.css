@@ -1,0 +1,9 @@
+.rooms {
+    margin: 200px 75px 0 75px;
+}
+
+@media screen and (max-width: 767px) {
+    .rooms {
+        margin: 100px 10px 0 10px;
+    }
+}

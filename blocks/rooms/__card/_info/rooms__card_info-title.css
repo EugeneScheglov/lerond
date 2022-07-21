@@ -1,0 +1,20 @@
+.rooms__card_info-title {
+    font-size: 18px;
+    line-height: 94.99%;
+    letter-spacing: -0.03em;
+    border: 2px solid #434343;
+    border-radius: 33px;
+    color: #434343;
+    text-align: center;
+    padding: 9px 19px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+    .rooms__card_info-title {
+        font-size: 14px;
+        line-height: 94.99%;
+        padding: 10px 10px;
+    }
+}

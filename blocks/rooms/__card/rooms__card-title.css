@@ -1,0 +1,15 @@
+.rooms__card-title {
+    color: rgba(67, 67, 67, 1);
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .rooms__card-title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 30px;
+    }
+}

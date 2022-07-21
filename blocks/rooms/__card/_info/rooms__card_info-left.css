@@ -1,0 +1,9 @@
+.rooms__card_info-left {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .rooms__card_info-left {
+        width: 50%;
+    }
+}

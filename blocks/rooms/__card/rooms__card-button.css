@@ -1,0 +1,24 @@
+.rooms__card-button {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .rooms__card-button {
+        display: block;
+        position: absolute;
+        right: 10px;
+        margin-top: 10px;
+        background-color: white;
+        border: 0;
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .rooms__card-button:hover {
+        transform: rotate(45deg);
+    }
+
+    nav:hover ul {
+        display: inline-block;
+    }
+}
