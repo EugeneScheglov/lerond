@@ -1,3 +1,8 @@
 .about__text {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
     
+    margin: 0;
+    color: #FFFFFF;
 }

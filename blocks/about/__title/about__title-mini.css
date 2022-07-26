@@ -1,0 +1,9 @@
+.about__title-mini {
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin: 0;
+}

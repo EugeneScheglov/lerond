@@ -1,0 +1,10 @@
+.history-mini {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .history-mini {
+      display: block;
+      margin: 50px 10px;
+    }
+}

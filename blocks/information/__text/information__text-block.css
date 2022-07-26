@@ -1,0 +1,9 @@
+.information__text-block {
+    width: 41%;
+}
+
+@media screen and (max-width: 767px) {
+    .information__text-block {
+        width: 100%;
+    }
+}

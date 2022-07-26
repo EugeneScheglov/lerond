@@ -1,0 +1,13 @@
+.information {
+    margin: 0 75px;
+}
+
+.information-style {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .information {
+      margin: 0 10px;
+    }
+}

@@ -1,0 +1,7 @@
+.about__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 95%;
+    margin: 20px 45px;
+}
