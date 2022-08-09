@@ -1,0 +1,18 @@
+.events {
+    background-image: url(../../images/events.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 870px;
+    margin: 0 30px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .events {
+        background-image: url(../../images/events-mini.png);
+        margin: 0 10px;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 615px;
+    }
+}

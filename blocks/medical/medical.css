@@ -1,0 +1,18 @@
+.medical {
+    background-image: url(../../images/medical.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 870px;
+    margin: 0 30px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .medical {
+        background-image: url(../../images/medical-mini.png);
+        margin: 0 10px;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 615px;
+    }
+}

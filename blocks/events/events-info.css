@@ -1,0 +1,15 @@
+.events-info {
+    font-size: 48px;
+    line-height: 95%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 278px 0 30px 45px;
+}
+
+@media screen and (max-width: 767px) {
+    .events-info {
+        font-size: 36px;
+        margin: 218px 0 20px 10px;
+    }
+}

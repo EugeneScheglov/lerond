@@ -1,0 +1,15 @@
+.events-title {
+    font-size: 64px;
+    line-height: 95%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin: 15px auto;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .events-title {
+        font-size: 36px;
+        margin: 5px auto;
+    }
+}

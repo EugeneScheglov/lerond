@@ -1,0 +1,12 @@
+.medical-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 350px;
+}
+
+@media screen and (max-width: 767px) {
+    .medical-wrapper {
+        margin-top: 270px;
+    }
+}

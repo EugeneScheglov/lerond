@@ -1,0 +1,6 @@
+.lobby {
+    margin: 205px 30px 0 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}

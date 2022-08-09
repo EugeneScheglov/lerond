@@ -1,0 +1,15 @@
+.medical-text {
+    font-size: 48px;
+    line-height: 95%;
+    margin: 15px auto;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .medical-text {
+        font-size: 20px;
+        margin: 5px auto;
+    }
+}
