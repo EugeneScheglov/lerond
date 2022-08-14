@@ -68,6 +68,13 @@
 @import url(../blocks/druzhba/__block/druzhba__block-info.css);
 @import url(../blocks/druzhba/__info/druzhba__info-right.css);
 @import url(../blocks/druzhba/__info/druzhba__info-wrapper-rev.css);
+@import url(../blocks/druzhba/__info/druzhba__info-left-mg.css);
+@import url(../blocks/druzhba/__block/druzhba__block-info-max.css);
+@import url(../blocks/druzhba/__block/druzhba__block-info-sev.css);
+@import url(../blocks/druzhba/__slider/druzhba__slider.css);
+@import url(../blocks/druzhba/__slider/druzhba__slider-mg.css);
+@import url(../blocks/druzhba/__image/druzhba__image.css);
+@import url(../blocks/druzhba/__info/druzhba__info-right-rev.css);
 
 @import url(../blocks/lobby/lobby.css);
 @import url(../blocks/lobby/__title/lobby__title.css);

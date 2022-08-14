@@ -4,3 +4,9 @@
     border-radius: 20px;
     height: 940px;
 }
+
+@media screen and (max-width: 767px) {
+    .druzhba__block {
+        display: none;
+    }
+}

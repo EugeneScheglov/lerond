@@ -1,0 +1,11 @@
+.druzhba__slider {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .druzhba__slider {
+        display: block;
+        margin: 0 10px;
+        border-radius: 10px;
+    }
+}

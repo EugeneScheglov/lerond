@@ -1,0 +1,9 @@
+.druzhba__info-left-mg {
+    margin-left: 180px;
+}
+
+@media screen and (max-width: 767px) {
+    .druzhba__info-left-mg {
+        margin-left: 0;
+    }
+}

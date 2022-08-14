@@ -1,0 +1,9 @@
+.druzhba__block-info-sev {
+    width: 72%;
+}
+
+@media screen and (max-width: 767px) {
+    .druzhba__block-info-sev {
+        width: 100%;
+    }
+}

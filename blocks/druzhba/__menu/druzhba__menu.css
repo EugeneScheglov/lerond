@@ -4,3 +4,9 @@
     justify-content: space-evenly;
     padding-top: 280px;
 }
+
+@media screen and (max-width: 767px) {
+    .druzhba__menu {
+        display: none;
+    }
+}

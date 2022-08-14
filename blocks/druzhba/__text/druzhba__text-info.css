@@ -4,3 +4,10 @@
     margin: 40px 0;
     color: #636363;
 }
+
+@media screen and (max-width: 767px) {
+    .druzhba__text-info {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+}

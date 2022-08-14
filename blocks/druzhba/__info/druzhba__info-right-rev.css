@@ -1,10 +1,10 @@
-.druzhba__info-right {
-    width: 49%;
+.druzhba__info-right-rev {
+    width: 56%;
     /* width: 870px; */
 }
 
 @media screen and (max-width: 767px) {
-    .druzhba__info-right {
+    .druzhba__info-right-rev {
         display: none;
     }
 }
