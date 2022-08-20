@@ -1,0 +1,9 @@
+.gallery__slider {
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .gallery__slider {
+        display: none;
+    }
+}
